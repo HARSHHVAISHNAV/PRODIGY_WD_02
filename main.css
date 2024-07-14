@@ -8,6 +8,7 @@ body{
   border: 2px solid black;
   display: flex;
   flex-direction: column;
+  color: red;
   width: 65vh;
   margin-left: 35%;
   border-radius: 18vh;
@@ -44,8 +45,7 @@ button {
 }
 
 button:hover {
-  background-color: white;
-  color: black;
+  color: red;
 }
 
 button:active {
@@ -54,9 +54,12 @@ button:active {
 }
 .lap-times{
     display: flex;
-    /* justify-content: center; */
-    align-items: center;
+    align-items:center;
     background-color: black;
     color: white;
     flex-direction: column;
+}
+.lap-times li:hover {
+  color: red;
+  cursor: pointer;
 }
